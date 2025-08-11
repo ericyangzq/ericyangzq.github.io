@@ -61,10 +61,7 @@ body::before {
     font-weight: 700;
     margin-bottom: 1rem;
     line-height: 1.2;
-    background: linear-gradient(45deg, #a855f7, #8b5cf6);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    color: #a855f7;
     transition: all 0.3s ease;
 }
 
@@ -76,6 +73,7 @@ body::before {
 .highlight {
     color: #a855f7;
     position: relative;
+    font-weight: 700;
 }
 
 
